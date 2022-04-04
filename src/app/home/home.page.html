@@ -1,20 +1,31 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title class="ion-text-center">
+      Admob Banner
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
+<ion-content>
+  <ion-button expand="full" ><a href="https://play.google.com/store/apps/dev?id=5606456325281613718&hl=pt">PlayStore Hangell</a></ion-button>
+  <ion-grid class="ion-text-center">
+  <h5>This information was useful to you.</h5>
+  <h6>Help us</h6>
+  <p>Add the repo to your favorites</p>
+</ion-grid>
+<ion-grid>
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-button color="warning" expand="full" (click)="showBanner()">Show Banner</ion-button>
+    <br>
+    <ion-button color="danger" expand="full" (click)="showInterstitialAd()">Interstitial Ad</ion-button>
   </div>
+</ion-grid>
+<ion-grid id="info" class="ion-text-center">
+  <h6>Donate</h6>
+  <p>Pix: <b style="color: green;">rodrigo@hangell.org</b></p>
+  <p>Cryptocurrencies or nft <b style="color: green;"><small>0xEd4d1be72F807Faa358C966a8eF63367c200130F</small></b></p>
+  <ion-title class="ion-text-center">
+    <a href="https://hangell.org">Created by Hangell</a>
+  </ion-title>
+</ion-grid>
 </ion-content>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Baby Coruja</string>
+    <string name="title_activity_main">Baby Coruja</string>
+    <string name="package_name">org.hangell.babycoruja</string>
+    <string name="custom_url_scheme">org.hangell.babycoruja</string>
+</resources>

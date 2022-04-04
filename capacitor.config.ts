@@ -1,8 +1,8 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'limpo',
+  appId: 'org.hangell.babycoruja',
+  appName: 'Baby Coruja',
   webDir: 'www',
   bundledWebRuntime: false
 };

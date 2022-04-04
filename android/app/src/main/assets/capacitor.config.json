@@ -1,0 +1,6 @@
+{
+	"appId": "org.hangell.babycoruja",
+	"appName": "Baby Coruja",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
